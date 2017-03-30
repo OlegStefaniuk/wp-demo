@@ -27,6 +27,7 @@
 >mv wordpress/ /var/www/
 
 >cd /var/www/wordpress/ && mkdir wp-content/uploads
+
 -get wp-config.php from private repo or create from sample
 
 -change the directory owner to apache2-user
@@ -36,5 +37,7 @@
 -create config for apache-server
 
 >cd /etc/apache2/sites-available/
+
 -get sitename.conf from private repo or create (https://github.com/OlegStefaniuk/wp-demo/blob/master/wordpress.conf)
+
 >cd ../sites-enabled/ && sudo ln -s ../sites-available/wordpress.conf .

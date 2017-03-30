@@ -33,16 +33,11 @@
 >cp wp-config-sample.php wp-config.php
 
 >vi wp-config.php
->>define('DB_NAME', 'putyourdbnamehere');    // Имя базы данных
-
->>define('DB_USER', 'usernamehere');     // Имя пользователя MySQL
-
->>define('DB_PASSWORD', 'yourpasswordhere'); // ...и пароль
-
->>define('DB_HOST', 'localhost');    // 99% что вам не следует вносить изменения в данную строчку кода
-
->>define('DB_CHARSET', 'utf8');
-
+>>define('DB_NAME', 'putyourdbnamehere');    // Имя базы данных  
+>>define('DB_USER', 'usernamehere');     // Имя пользователя MySQL  
+>>define('DB_PASSWORD', 'yourpasswordhere'); // ...и пароль  
+>>define('DB_HOST', 'localhost');    // 99% что вам не следует вносить изменения в данную строчку кода  
+>>define('DB_CHARSET', 'utf8');  
 >>define('DB_COLLATE', '');
 
 -change the directory owner to apache2-user

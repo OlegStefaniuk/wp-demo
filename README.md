@@ -1,4 +1,4 @@
-### wp-demo
+### wp-demo (for debian or ubuntu)
 
 -install and start apache2
 

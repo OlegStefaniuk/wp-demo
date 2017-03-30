@@ -3,7 +3,9 @@
 -install and start apache2
 
 >sudo apt-get update && sudo apt-get install -y apache2 apache2-utils mysql-client
+
 >sudo systemctl enable apache2
+
 >sudo systemctl start apache2
 
 -install php modules for apache
@@ -13,13 +15,17 @@
 -enable rewrite module
 
 >sudo a2enmod rewrite
+
 >sudo service apache2 restart
 
 -get latest wordpress version
 
 >cd ~/ && wget http://wordpress.org/latest.tar.gz
+
 >tar xzvf latest.tar.gz
+
 >mv wordpress/ /var/www/
+
 >cd /var/www/wordpress/ && mkdir wp-content/uploads
 -get wp-config.php from private repo or create from sample
 
